@@ -1,0 +1,13 @@
+{
+    "name": "root/binarystudio",
+    "authors": [
+        {
+            "name": "Lench Vladimir",
+            "email": "lenchvov@rambler.ru"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
