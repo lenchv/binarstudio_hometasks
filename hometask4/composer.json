@@ -1,0 +1,15 @@
+{
+    "name": "binarystudio/hometask4",
+    "authors": [
+        {
+            "name": "Lench Vladimir",
+            "email": "lenchvov@rambler.ru"
+        }
+    ],
+    "require": {
+        "php": ">7.0"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
