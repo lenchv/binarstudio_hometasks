@@ -20,6 +20,6 @@ Route::get('/phone', function () {
 });
 
 Route::get('/shorten', function () {
-	$data = Bitly::shorten("https://github.com/lenchv/binarstudio_hometasks");
+	$data = Bitly::shorten("https://github.com/lenchv/binarstudio_hometasks/tree/master/laravel");
 	return Response::view("link", ["data" => $data['data']['url']]);
 });
